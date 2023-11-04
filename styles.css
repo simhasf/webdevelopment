@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto";
+  background-color: lightgrey;
+}
+
+h1 {
+  font-size: 42px;
+  color: #53247e;
+}
+
+header {
+  text-align: center;
+  padding: 32px;
+}
+
+header img {
+  width: 200px;
+}
+
+main {
+  background-color: rgb(148, 89, 136);
+  padding: 32px;
+  width: 740px;
+  margin: 32px auto;
+  border-radius: 8px;
+  color: rgb(255, 226, 230);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 20px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #53247e;
+  background-color: rgb(231, 195, 147);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(253, 244, 231);
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer p {
+    color: rgb(67, 51, 67);
+    margin-top: 20px;
+}
+
+footer a {
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgb(255, 183, 95);
+    color: rgb(60, 39, 54);
+}
+
+footer a:hover,
+footer a:active {
+    background-color: rgb(255, 232, 199);
+}
+
+
+.extra-important {
+  color: rgb(255, 210, 190);
+  border-color: rgb(215, 154, 21);
+}
+
+.highlight {
+  font-weight: bold;
+}
